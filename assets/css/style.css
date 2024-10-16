@@ -1,3 +1,49 @@
+.h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+/* Apply Google Font to all h2 elements with class 'qwitcher-grypen-regular' */
+.h2.qwitcher-grypen-regular {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400; /* Regular weight */
+    text-align: center; /* Center align h2 */
+}
+
+/* If you have h2 elements you want to be bold, use another class like this: */
+.h2.qwitcher-grypen-bold {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 700; /* Bold weight */
+    text-align: center; /* Center align h2 */
+}
+
+/* General style for all h2 elements */
+h2 {
+    text-align: center;
+    font-family: 'Qwitcher Grypen', cursive; /* Default to regular style */
+    font-weight: 400;
+    font-size: 70px;
+}
+
+/* Specific style for bold h2 elements */
+.h2.qwitcher-grypen-bold {
+    font-weight: 700;
+}
+
+#h2{
+    font-size: 60px;
+}
+img {
+    text-align: center;
+}
+
+
+.box {
+    box-sizing: border-box;
+    background: linear-gradient(135deg, orange 60%, cyan);
+    padding: 1%;
+}
+
 .topnav ul {
     list-style: none; /* Removes bullets */
     padding: 0;
@@ -22,5 +68,18 @@
     background-color: #ded0ac; /* Lighter black for hover effect */
 }
 
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
 
+img {
+    width: 11%;
+}
+
+.Contact {
+    text-align: left;
+    font-size: 50px;
+}
   
