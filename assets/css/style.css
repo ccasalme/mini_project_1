@@ -1,0 +1,26 @@
+.topnav ul {
+    list-style: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+    background-color: #ad955d; /* Dark background for the nav bar */
+    display: flex; /* Aligns the list items horizontally */
+    justify-content: space-around; /* Distributes space around items */
+}
+
+.topnav li {
+    /* Style as needed, this is optional if you want specific styles for li */
+}
+
+.topnav a {
+    display: block;
+    color: white; /* White text color */
+    padding: 14px 20px; /* Vertical and horizontal padding */
+    text-decoration: none; /* No underline */
+}
+
+.topnav a:hover {
+    background-color: #ded0ac; /* Lighter black for hover effect */
+}
+
+
+  
